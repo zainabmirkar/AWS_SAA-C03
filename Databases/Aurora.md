@@ -23,3 +23,6 @@
 - backup and recovery
 - automatic failover
 - isolation and security
+
+
+### Advanced Concepts

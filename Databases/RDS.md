@@ -43,8 +43,14 @@
   
 
 
-
-
+### RDS Custom for Oracle and Microsoft SQL Server
+- managed oracle and Microsoft sql server database with os and database customization
+- access to underlying database and os so you can
+  - configure settings
+  - install patches
+  - enable native features
+  - ssh
+- good practice to take a snapshot before any customization
 
 
 

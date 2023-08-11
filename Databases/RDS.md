@@ -56,8 +56,24 @@
 ### Note
 - in an rds databse you pay for storage, so if you want to use rds for 2 hrs and then stop it. what you can do is after using it take a snapshot and delete the original db this way you save money .. then you can restore it anytime
 
+### RDS Security
+- db and replicas encryption should be mentioned at launch time
+- if master is not replicated then replicas won't be too
+- if you want to encrypt unencrypted db, restore db snapshot as encrypted
+- you can use iam roled to connect to your db
+- in flight encryption: tls ready by default
+- security groups
+- no ssh except rds custom
+- audit logs can be enabled and sent to cw logs for longer retention otherwise they will be lost
 
-
+### RDS Proxy
+- allows apps to share db connections with rds db
+- improve efficiency by reducing stress on the rds db
+- serverless, autoscaling, multi az, highly available
+- reduce failover upto 66%
+- supports postgres, aurora(ppstgre and mysql), mysql, maria db, microsoft sql server
+- no code changes required
+- not publicly accessible (access from vpc)
 
 
 

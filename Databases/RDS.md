@@ -53,10 +53,8 @@
 - good practice to take a snapshot before any customization
 
 
-
-
-
-
+### Note
+- in an rds databse you pay for storage, so if you want to use rds for 2 hrs and then stop it. what you can do is after using it take a snapshot and delete the original db this way you save money .. then you can restore it anytime
 
 
 

@@ -25,4 +25,6 @@
 - isolation and security
 
 
-### Advanced Concepts
+### RDS and Aurora Backups
+- automated backup retention period is 1 to 35 days
+- manual backups as long as you want

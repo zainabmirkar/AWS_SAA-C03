@@ -4,6 +4,7 @@
 - helps load off of db for read intensive workloads
 - helps make your application stateless
 - involves heavy application code changes
+- elastic cache supports iam authentication for redis only
   
 ## ElatiCache Redis v/s Memcached
 

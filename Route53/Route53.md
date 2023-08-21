@@ -30,8 +30,19 @@ Think of an AAAA Record like a modern phone number for the internet. It's used t
 - Longer TTLs reduce the load but result in slower changes when updates are made to DNS records.
 
 
+### CNAME v/s Alias
 
+### CNAME
+- points a hostname to any other hostname. only for non root domain
 
+### Alias
+- alias points  a domain to a aws resource for eg: loadbalancer. works for root and non root. alias is free
+- automatically recognises changes in resourceip address
+- alias is always of A/AAAA for ipv4 and ipv6
+- you can't set ttl, route53 handles that
+- ALIAS record targets
+  - elb, cloudfront distributions, s3 websites, api gateway, elastic beanstalk env, vpc interface endpoints, global accelerator and route 53 record in the same hosted zone
+  
 
 
 

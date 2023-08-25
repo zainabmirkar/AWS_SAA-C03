@@ -28,3 +28,18 @@
 ### RDS and Aurora Backups
 - automated backup retention period is 1 to 35 days
 - manual backups as long as you want
+
+### Aurora Serverless
+- no instances to manage
+- on demand pricing not applicable
+- serverless pricing capacity is managed in acu (Aurora Capacity Units)
+
+
+
+
+
+
+
+
+
+

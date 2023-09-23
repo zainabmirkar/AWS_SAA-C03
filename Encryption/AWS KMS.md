@@ -32,7 +32,8 @@
 - [data keys](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#data-keys)
 
 ### Data Key Pairs
-- 
+- [data key pairs](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#data-key-pairs)
+  
 
 
 

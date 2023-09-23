@@ -34,6 +34,35 @@
 ### Data Key Pairs
 - [data key pairs](https://docs.aws.amazon.com/kms/latest/developerguide/concepts.html#data-key-pairs)
   
+### key rotation
+- changing the key material associated with the key
+- aws managed and aws owned keys are managed by aws only
+
+
+### key policies
+- who can access keys
+- resource based policies
+- different policies can be created for different keys
+- json format of permissions
+
+### grants
+- Grants are often used for temporary permissions because you can create one, use its permissions, and delete it without changing your key policies or IAM policies.
+- allows to delegate a subset of permissions for a user
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

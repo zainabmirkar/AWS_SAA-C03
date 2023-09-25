@@ -50,7 +50,9 @@
 - allows to delegate a subset of permissions for a user
 
 
+### AWS KMS Permissions and Key Policies
 
+- 
 
 
 

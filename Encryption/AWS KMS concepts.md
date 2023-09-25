@@ -52,7 +52,8 @@
 
 ### AWS KMS Permissions and Key Policies
 
-- 
+- iam policies has to be allowed from within kms policy
+- for every key there should be a key administrator. these can be users or roles that you have set up. these principals can only administor the kms key and not perform encryption functions using that key
 
 
 
